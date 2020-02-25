@@ -1,0 +1,118 @@
+body {
+    font-family: 'Uncial Antiqua', cursive;
+    background-image:url('img/warcraftFond.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gameTitle {
+    font-size:7vw;
+    color:#f6d124;
+    text-shadow:5px 5px black;
+}
+
+.gameCategoriesTitle {
+    font-size:3rem;
+    border:solid 1px black;
+    border-radius:10px;
+}
+
+#heros {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#demons {
+    background: linear-gradient(0.25turn, #000000, #330558, #000000);
+}
+
+#cardRowHeros {
+    border:1px solid;
+    border-radius: 10px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#cardRowDemons {
+    border:1px solid;
+    border-radius: 10px;
+    background: linear-gradient(0.25turn, #000000, #330558, #000000);
+}
+
+img {
+    height:170px;
+}
+
+.cardFight {
+    width: 35vH;
+    height: auto;
+}
+
+.card-title {
+    text-shadow:2px 2px black;
+}
+
+.card-content {
+    font-size:2rem;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.card-action {
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+
+.chooseButton {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.cardStats {
+    font-weight:bold;
+}
+
+
+.vsFight {
+    font-size:8vw;
+    text-shadow: 5px 5px black;
+    color: #f6d124;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+
+.fightRow {
+    justify-content: center;
+    display: flex;
+}
+
+@media all and (max-width: 656px) {
+    .fightRow {
+        flex-direction: column;
+    }
+}
+
+.descriptionHeroFight {
+    border:solid 1px;
+    border-radius: 10px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.descriptionDemonFight {
+    border:solid 1px;
+    border-radius: 10px;
+    background: linear-gradient(0.25turn, #000000, #330558, #000000);
+    color:white;
+}
+
+.buttonRound {
+    width:98vw;
+    height:10vh;
+    font-size:5vw;
+    font-family: 'Uncial Antiqua', cursive;
+    background-color:#f6d124;
+    text-shadow: 3px 3px black;
+}
+
